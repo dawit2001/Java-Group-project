@@ -3,13 +3,6 @@ package studentpaymentsystempackage;
 
 import java.sql.Date;
 
-/**
- *
- * @author abel
- */
-
-// import java.util.Date;
-
 public class StudentData {
 
     private Integer id;
@@ -92,4 +85,3 @@ public class StudentData {
     }
 
 }
-//

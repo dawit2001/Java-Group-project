@@ -1,9 +1,5 @@
 package studentpaymentsystempackage;
 
-/**
- *
- * @author abel
- */
 public class TeacherData {
 
     private Integer id;
@@ -14,9 +10,10 @@ public class TeacherData {
     private Integer phoneNum;
     private String address;
     private String status;
-    
-    public TeacherData(Integer id, String teacherID, String name,String gender,String department,Integer phoneNum,String address,String status){
-        
+
+    public TeacherData(Integer id, String teacherID, String name, String gender, String department, Integer phoneNum,
+            String address, String status) {
+
         this.id = id;
         this.teacherID = teacherID;
         this.name = name;
@@ -28,7 +25,6 @@ public class TeacherData {
 
     }
 
-    
     public Integer getId() {
         return id;
     }
@@ -40,7 +36,7 @@ public class TeacherData {
     public String getName() {
         return name;
     }
-    
+
     public String getGender() {
         return gender;
     }
@@ -57,12 +53,8 @@ public class TeacherData {
         return address;
     }
 
-
     public String getStatus() {
         return status;
     }
-
-
-
 
 }

@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/javafx/FXMLController.java to edit this template
- */
+
 package studentpaymentsystempackage;
 
 import java.net.URL;
@@ -22,11 +19,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-/**
- * FXML Controller class
- *
- * @author abel
- */
 public class LoginFxmlController implements Initializable {
 
     @FXML
@@ -58,16 +50,11 @@ public class LoginFxmlController implements Initializable {
     @FXML
     private Button sub_loginBtn;
     @FXML
-    // private Label si_username_error;
-    // @FXML
-    // private Label si_pass_error;
+
     private Connection connect;
     private PreparedStatement prepare;
     private ResultSet result;
 
-    /**
-     * Initializes the controller class.
-     */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
     }
@@ -83,7 +70,7 @@ public class LoginFxmlController implements Initializable {
             prepare.setString(1, si_username.getText());
             prepare.setString(2, si_password.getText());
             result = prepare.executeQuery(); // if the input are match from the admin table it will retrun the data else
-            // not return anything
+            // return nothing
 
             Alert alert;
 
@@ -98,8 +85,7 @@ public class LoginFxmlController implements Initializable {
 
                     Data.username = si_username.getText();
 
-                    // si_loginBtn.getScene().getWindow().hide();
-                    // LINK YOUR DASHBOARD FORM
+                    // link dashboardfxml
                     StudentPaymentSystem.sceneFactory("DashboardFxml");
 
                 } else {
