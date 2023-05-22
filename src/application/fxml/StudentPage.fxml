@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19">
+   <children>
+      <AnchorPane layoutY="-5.0" prefHeight="463.0" prefWidth="467.0">
+         <children>
+            <Label layoutX="100.0" layoutY="60.0" prefHeight="18.0" prefWidth="279.0" text="student page" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
