@@ -1,0 +1,215 @@
+
+Teacher ID: bdu130 logged into: 2023-05-19T21:23:13.845738100
+And
+Teacher ID: bdu130 logged Outinto: 2023-05-19T21:23:28.823134
+
+Teacher ID: bdu130 logged into: 2023-05-19T22:43:52.265789
+And
+Teacher ID: bdu130 logged Outinto: 2023-05-19T22:44:37.643475500
+
+Teacher ID: bdu130 logged into: 2023-05-19T22:45:07.675195900
+And
+
+Teacher ID: bdu130 logged into: 2023-05-19T22:46:17.039935300
+And
+Teacher ID: bdu130 logged Outinto: 2023-05-19T22:47:49.233400700
+
+Teacher ID: bdu130 logged into: 2023-05-19T22:48:59.636650800
+And
+Teacher ID: bdu130 logged Outinto: 2023-05-19T22:49:30.654709
+
+Teacher ID: bdu130 logged into: 2023-05-20T11:50:15.805672300
+And
+Teacher ID: bdu130 logged Outinto: 2023-05-20T11:50:37.107640800
+
+Teacher ID: bdu130 logged into: 2023-05-21T15:49:07.764104700
+And
+Teacher ID: bdu130 logged Outinto: 2023-05-21T15:49:35.940036400
+
+Teacher ID: bdu130 logged into: 2023-05-21T15:51:16.084517500
+And
+Teacher ID: bdu130 logged Outinto: 2023-05-21T15:52:29.616709300
+
+Teacher ID: bdu130 logged into: 2023-05-21T15:52:49.467176900
+And
+
+Teacher ID: bdu130 logged into: 2023-05-21T21:46:43.549319600
+And
+Teacher ID: bdu130 logged Outinto: 2023-05-21T21:48:31.857593800
+
+Teacher ID: bdu130 logged into: 2023-05-21T22:30:50.339537800
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T00:58:52.416179
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T01:07:31.590183500
+And
+Teacher ID: bdu130 logged Outinto: 2023-05-22T01:07:39.765322800
+
+Teacher ID: bdu130 logged into: 2023-05-22T01:13:23.319716100
+And
+Teacher ID: bdu130 logged Outinto: 2023-05-22T01:13:30.306349300
+
+Teacher ID: bdu130 logged into: 2023-05-22T01:24:40.531026400
+And
+Teacher ID: bdu130 logged Outinto: 2023-05-22T01:27:04.549598200
+
+Teacher ID: bdu130 logged into: 2023-05-22T01:38:40.403422900
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T01:53:23.586326100
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T01:57:05.745538500
+And
+Teacher ID: bdu130 logged Outinto: 2023-05-22T01:59:45.951303700
+
+Teacher ID: bdu130 logged into: 2023-05-22T02:01:21.715530800
+And
+Teacher ID: bdu130 logged Outinto: 2023-05-22T02:02:28.708298800
+
+Teacher ID: bdu130 logged into: 2023-05-22T02:38:34.376896600
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T09:57:23.211575100
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T10:00:23.069087500
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T10:03:54.698191600
+And
+Teacher ID: bdu130 logged Outinto: 2023-05-22T10:04:01.310759400
+
+Teacher ID: bdu130 logged into: 2023-05-22T10:26:07.085162100
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T10:31:09.729969800
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T10:36:00.088656500
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T10:39:26.647968100
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T10:42:28.875495200
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T10:46:25.277915400
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T10:55:52.866565900
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T10:59:51.189711600
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T12:19:47.390971100
+And
+Teacher ID: null logged Outinto: 2023-05-22T12:20:20.029333400
+
+Teacher ID: bdu130 logged into: 2023-05-22T12:26:57.521121
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T12:42:46.154903700
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T12:50:46.514592300
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T13:01:28.733803600
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T13:11:24.769837
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T13:14:31.125981500
+And
+Teacher ID: null logged Outinto: 2023-05-22T13:17:17.733898700
+
+Teacher ID: bdu130 logged into: 2023-05-22T13:17:38.405585300
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T13:18:46.838812100
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T13:21:47.162784700
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T13:26:02.247710100
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T13:34:55.339989900
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T13:39:51.541612300
+And
+Teacher ID: null logged Outinto: 2023-05-22T14:06:14.107072800
+
+Teacher ID: bdu131 logged into: 2023-05-22T14:06:25.517871100
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T14:37:13.220229900
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T14:42:51.938207300
+And
+Teacher ID: null logged Outinto: 2023-05-22T14:43:34.582505500
+
+Teacher ID: bdu131 logged into: 2023-05-22T14:44:33.438433500
+And
+Teacher ID: null logged Outinto: 2023-05-22T14:44:43.187729100
+
+Teacher ID: bdu130 logged into: 2023-05-22T14:45:40.585194100
+And
+Teacher ID: null logged Outinto: 2023-05-22T14:50:01.964715900
+
+Teacher ID: bdu130 logged into: 2023-05-22T15:19:14.543722500
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T15:23:59.492362800
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T15:29:20.926472100
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T15:39:04.093460400
+And
+
+Teacher ID: bdu130 logged into: 2023-05-22T15:44:34.901701
+And
+
+Teacher ID: bdu131 logged into: 2023-05-22T15:54:04.965649600
+And
+
+Teacher ID: bdu133 logged into: 2023-05-23T18:44:43.410578800
+And
+Teacher ID: abel logged Outinto: 2023-05-23T18:44:58.407184500
+
+Teacher ID: bdu130 logged into: 2023-05-23T18:48:56.707017500
+And
+Teacher ID: abel logged Outinto: 2023-05-23T18:52:43.892320
+
+Teacher ID: BDU133 logged into: 2023-05-23T18:53:17.660693500
+And
+Teacher ID: abel logged Outinto: 2023-05-23T18:55:09.677820100
+
+Teacher ID: bdu131 logged into: 2023-06-11T22:02:25.690582128
+And
+
+Teacher ID: bdu131 logged into: 2023-06-11T22:29:21.681628879
+And
+
+Teacher ID: bdu131 logged into: 2023-06-11T22:30:01.645313753
+And
+Teacher ID: grma logged Outinto: 2023-06-11T22:32:58.840253692
+
+Teacher ID: bdu131 logged into: 2023-06-11T22:50:45.269835560
+And
+Teacher ID: grma logged Outinto: 2023-06-11T22:51:14.023409811
+
+Teacher ID: bdu130 logged into: 2023-06-11T22:51:30.827115692
+And
+Teacher ID: abel logged Outinto: 2023-06-11T22:58:21.402878376

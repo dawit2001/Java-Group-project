@@ -1,0 +1,25 @@
+.avatar-pane {
+    
+}
+
+.avatar-pane .content {
+    -fx-background-color: white;
+}
+
+.avatar-pane .header {
+    -fx-padding: 0.833333em 0em 1.25em 0em;
+    -fx-background-color: lightblue;
+}
+
+.avatar-pane .header .arrow {
+    -fx-background-color: white;
+    -fx-padding: 0.5em 1em;
+    -fx-shape: "M 3.5 0 L 7 7 L 0 7 Z";
+}
+
+.avatar-pane > .header > .avatar > .decoration {
+    -fx-fill:transparent;
+    -fx-stroke: -primary-swatch-500;
+    -fx-stroke-width: 1;
+    -fx-effect: dropshadow(three-pass-box,-elevation-shadow-color, 2, 0, 0, 1);
+}

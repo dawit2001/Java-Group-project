@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="school.management.system.LoginFxmlController">
+    <children>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="parentAnchorpane" stylesheets="@loginfxml.css">
+            <children>
+                <AnchorPane fx:id="form_page" prefHeight="336.0" prefWidth="600.0" stylesheets="@loginfxml.css" AnchorPane.bottomAnchor="64.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <children>
+                        <AnchorPane fx:id="admin_portal_page" prefHeight="336.8" prefWidth="601.6" stylesheets="@loginfxml.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                            <children>
+                                <AnchorPane layoutX="34.0" layoutY="14.0" prefHeight="337.0" prefWidth="285.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="292.0" AnchorPane.topAnchor="0.0">
+                                    <children>
+                                        <ImageView fitHeight="305.0" fitWidth="282.0" layoutX="10.0" layoutY="16.0" pickOnBounds="true">
+                                            <image>
+                                                <Image url="@../../../image/lock-g1d3aafc21_640.png" />
+                                            </image>
+                                        </ImageView>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane layoutX="287.0" prefHeight="327.0" prefWidth="292.0" styleClass="portal_pages" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="310.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                    <children>
+                                        <ImageView fitHeight="63.0" fitWidth="61.0" layoutX="101.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../image/software-engineer.png" />
+                                            </image>
+                                        </ImageView>
+                                        <Label layoutX="49.0" layoutY="85.0" prefHeight="27.0" prefWidth="180.0" text="Sign In Your Account">
+                                            <font>
+                                                <Font name="Tahoma" size="18.0" />
+                                            </font>
+                                        </Label>
+                                        <Label layoutX="91.0" layoutY="112.0" prefHeight="18.0" prefWidth="90.0" text="Admin portal">
+                                            <font>
+                                                <Font name="Bodoni MT" size="15.0" />
+                                            </font>
+                                        </Label>
+                                        <TextField fx:id="admin_username" layoutX="45.0" layoutY="145.0" prefHeight="35.0" prefWidth="180.0" promptText="Username" styleClass="textfield" />
+                                        <PasswordField fx:id="admin_password" layoutX="45.0" layoutY="207.0" prefHeight="35.0" prefWidth="180.0" promptText="password" styleClass="textfield" />
+                                        <Button fx:id="admin_login_btn" layoutX="45.0" layoutY="274.0" mnemonicParsing="false" onAction="#adminLogin" prefHeight="30.0" prefWidth="180.0" styleClass="login-btn" text="login" />
+                                    </children>
+                                </AnchorPane>
+                            </children>
+                        </AnchorPane>
+                        <AnchorPane fx:id="teacher_portal_page" prefHeight="336.8" prefWidth="601.6" stylesheets="@loginfxml.css" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                            <children>
+                                <AnchorPane prefHeight="337.0" prefWidth="255.0" stylesheets="@loginfxml.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="0.0">
+                                    <children>
+                                        <ImageView fitHeight="305.0" fitWidth="275.0" layoutX="13.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="13.890911865234386" AnchorPane.leftAnchor="13.0" AnchorPane.rightAnchor="13.600000000000023" AnchorPane.topAnchor="32.0">
+                                            <image>
+                                                <Image url="@../../../image/girl-g833290f9b_640.png" />
+                                            </image>
+                                        </ImageView>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane fx:id="teacher_login_page" layoutX="10.0" layoutY="10.0" prefHeight="337.0" prefWidth="255.0" styleClass="portal_pages" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="310.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                    <children>
+                                        <ImageView fitHeight="63.0" fitWidth="61.0" layoutX="101.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../image/unauthorized-person.png" />
+                                            </image>
+                                        </ImageView>
+                                        <Label layoutX="49.0" layoutY="85.0" prefHeight="27.0" prefWidth="180.0" text="Sign In Your Account">
+                                            <font>
+                                                <Font name="Tahoma" size="18.0" />
+                                            </font>
+                                        </Label>
+                                        <Label layoutX="88.0" layoutY="112.0" prefHeight="18.0" prefWidth="98.0" text="Teacher portal">
+                                            <font>
+                                                <Font name="Bodoni MT" size="15.0" />
+                                            </font>
+                                        </Label>
+                                        <TextField fx:id="teacher_login_teacherID" layoutX="45.0" layoutY="145.0" prefHeight="35.0" prefWidth="180.0" promptText="TeacherID" styleClass="textfield" />
+                                        <PasswordField fx:id="teacher_login_password" layoutX="45.0" layoutY="207.0" prefHeight="35.0" prefWidth="180.0" promptText="password" styleClass="textfield" />
+                                        <Button fx:id="teacher_login_btn" layoutX="41.0" layoutY="274.0" mnemonicParsing="false" onAction="#teacherLogin" prefHeight="30.0" prefWidth="80.0" styleClass="login-btn" text="login" />
+                                        <Button fx:id="teacher_signup_page_btn" layoutX="143.0" layoutY="274.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="30.0" prefWidth="80.0" text="signup" />
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane fx:id="teacher_signup_page" layoutX="310.0" layoutY="10.0" prefHeight="337.0" prefWidth="255.0" styleClass="portal_pages" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="310.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                    <children>
+                                        <ImageView fitHeight="63.0" fitWidth="61.0" layoutX="98.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../image/unauthorized-person.png" />
+                                            </image>
+                                        </ImageView>
+                                        <Label layoutX="67.0" layoutY="75.0" prefHeight="26.0" prefWidth="122.0" text="Activate Account">
+                                            <font>
+                                                <Font name="Tahoma" size="15.0" />
+                                            </font>
+                                        </Label>
+                                        <Label layoutX="79.0" layoutY="101.0" prefHeight="18.0" prefWidth="86.0" text="Teacher portal">
+                                            <font>
+                                                <Font name="Bodoni MT" size="14.0" />
+                                            </font>
+                                        </Label>
+                                        <TextField fx:id="teacher_signup_teacherID" layoutX="45.0" layoutY="122.0" prefHeight="26.0" prefWidth="180.0" promptText="TeacherID" styleClass="textfield" />
+                                        <TextField fx:id="teacher_signup_username" layoutX="45.0" layoutY="161.0" prefHeight="26.0" prefWidth="180.0" promptText="Username" styleClass="textfield" />
+                                        <PasswordField fx:id="teacher_signup_password" layoutX="45.0" layoutY="201.0" prefHeight="26.0" prefWidth="180.0" promptText="password" styleClass="textfield" />
+                                        <PasswordField fx:id="teacher_signup_confirm_password" layoutX="45.0" layoutY="243.0" prefHeight="26.0" prefWidth="180.0" promptText="confirm password" styleClass="textfield" />
+                                        <Button fx:id="teacher_signup_btn" layoutX="41.0" layoutY="288.0" mnemonicParsing="false" onAction="#teacherSignup" prefHeight="30.0" prefWidth="80.0" styleClass="login-btn" text="signup" />
+                                        <Button fx:id="teacher_login_page_btn" layoutX="143.0" layoutY="288.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="30.0" prefWidth="80.0" text="login" />
+                                    </children>
+                                </AnchorPane>
+                            </children>
+                        </AnchorPane>
+                        <AnchorPane fx:id="student_portal_page" prefHeight="336.8" prefWidth="601.6" stylesheets="@loginfxml.css" visible="false">
+                            <children>
+                                <AnchorPane prefHeight="337.0" prefWidth="255.0" stylesheets="@loginfxml.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="10.0">
+                                    <children>
+                                        <ImageView fitHeight="305.0" fitWidth="275.0" layoutX="13.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="24.31898193359376" AnchorPane.leftAnchor="13.0" AnchorPane.rightAnchor="13.600000000000023" AnchorPane.topAnchor="24.0">
+                                            <image>
+                                                <Image url="@../../../image/boy-g74925b341_640.png" />
+                                            </image>
+                                        </ImageView>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane fx:id="student_login_page" layoutX="10.0" layoutY="10.0" prefHeight="337.0" prefWidth="255.0" styleClass="portal_pages" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="310.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                    <children>
+                                        <ImageView fitHeight="63.0" fitWidth="61.0" layoutX="101.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../image/graduate.png" />
+                                            </image>
+                                        </ImageView>
+                                        <Label layoutX="49.0" layoutY="85.0" prefHeight="27.0" prefWidth="180.0" text="Sign In Your Account">
+                                            <font>
+                                                <Font name="Tahoma" size="18.0" />
+                                            </font>
+                                        </Label>
+                                        <Label layoutX="88.0" layoutY="112.0" prefHeight="18.0" prefWidth="98.0" text="Student portal">
+                                            <font>
+                                                <Font name="Bodoni MT" size="15.0" />
+                                            </font>
+                                        </Label>
+                                        <TextField fx:id="student_login_studentID" layoutX="45.0" layoutY="145.0" prefHeight="35.0" prefWidth="180.0" promptText="StudentID" styleClass="textfield" />
+                                        <PasswordField fx:id="student_login_password" layoutX="45.0" layoutY="207.0" prefHeight="35.0" prefWidth="180.0" promptText="password" styleClass="textfield" />
+                                        <Button fx:id="student_login_btn" layoutX="41.0" layoutY="274.0" mnemonicParsing="false" onAction="#studentLogin" prefHeight="30.0" prefWidth="80.0" styleClass="login-btn" text="login" />
+                                        <Button fx:id="student_signup_page_btn" layoutX="143.0" layoutY="274.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="30.0" prefWidth="80.0" text="signup" />
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane fx:id="student_signup_page" layoutX="310.0" layoutY="10.0" prefHeight="337.0" prefWidth="255.0" styleClass="portal_pages" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="310.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                    <children>
+                                        <ImageView fitHeight="63.0" fitWidth="61.0" layoutX="98.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../image/graduate.png" />
+                                            </image>
+                                        </ImageView>
+                                        <Label layoutX="67.0" layoutY="75.0" prefHeight="26.0" prefWidth="122.0" text="Activate Account">
+                                            <font>
+                                                <Font name="Tahoma" size="15.0" />
+                                            </font>
+                                        </Label>
+                                        <Label layoutX="79.0" layoutY="101.0" prefHeight="18.0" prefWidth="86.0" text="Student portal">
+                                            <font>
+                                                <Font name="Bodoni MT" size="14.0" />
+                                            </font>
+                                        </Label>
+                                        <TextField fx:id="student_signup_studentID" layoutX="45.0" layoutY="122.0" prefHeight="26.0" prefWidth="180.0" promptText="StudentID" styleClass="textfield" />
+                                        <TextField fx:id="student_signup_username" layoutX="45.0" layoutY="161.0" prefHeight="26.0" prefWidth="180.0" promptText="Username" styleClass="textfield" />
+                                        <PasswordField fx:id="student_signup_password" layoutX="45.0" layoutY="201.0" prefHeight="26.0" prefWidth="180.0" promptText="Password" styleClass="textfield" />
+                                        <PasswordField fx:id="student_signup_confirm_password" layoutX="45.0" layoutY="243.0" prefHeight="26.0" prefWidth="180.0" promptText="confirm Password" styleClass="textfield" />
+                                        <Button fx:id="student_signup_btn" layoutX="41.0" layoutY="288.0" mnemonicParsing="false" onAction="#studentSignup" prefHeight="30.0" prefWidth="80.0" styleClass="login-btn" text="signup" />
+                                        <Button fx:id="student_lgoin_page_btn" layoutX="143.0" layoutY="288.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="30.0" prefWidth="80.0" text="login" />
+                                    </children>
+                                </AnchorPane>
+                            </children>
+                        </AnchorPane>
+                    </children>
+                </AnchorPane>
+                <AnchorPane fx:id="rollSelection_page" layoutX="308.0" layoutY="340.0" prefHeight="61.0" prefWidth="292.0" styleClass="portal_pages" stylesheets="@loginfxml.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="310.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="338.0">
+                    <children>
+                        <Label layoutX="111.0" layoutY="5.0" prefHeight="18.0" prefWidth="61.0" text="Accounts" textFill="#380000">
+                            <font>
+                                <Font name="Tahoma" size="14.0" />
+                            </font>
+                        </Label>
+                        <ComboBox fx:id="select_role_btn" layoutX="75.0" layoutY="27.0" onAction="#switchRole" prefHeight="26.0" prefWidth="133.0" promptText="Choose your role" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </AnchorPane>
+    </children>
+</StackPane>

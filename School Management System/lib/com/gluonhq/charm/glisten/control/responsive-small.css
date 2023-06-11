@@ -1,0 +1,39 @@
+.visible-small-device {
+	visibility: visible;
+}
+
+.visible-medium-device {
+	visibility: collapse;
+}
+
+.visible-large-device {
+	visibility: collapse;
+}
+
+.visible-default {
+	visibility: collapse;
+}
+
+.visible-desktop {
+	visibility: collapse;
+}
+
+.hidden-small-device {
+	visibility: collapse;
+}
+
+.hidden-medium-device {
+	visibility: visible;
+}
+
+.hidden-large-device {
+	visibility: visible;
+}
+
+.hidden-default {
+	visibility: visible;
+}
+
+.hidden-desktop {
+	visibility: visible;
+}
