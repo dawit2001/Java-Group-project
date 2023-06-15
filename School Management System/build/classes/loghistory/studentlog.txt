@@ -1,0 +1,137 @@
+
+Student ID: bdu1309026 logged into: 2023-05-19T21:23:48.867237200
+And
+Student ID: bdu1309026 logged Outinto: 2023-05-19T21:23:59.606830400
+
+Student ID: bdu1309026 logged into: 2023-05-19T22:42:15.781019200
+And
+Student ID: bdu1309026 logged Outinto: 2023-05-19T22:43:38.377271200
+
+Student ID: bdu1309026 logged into: 2023-05-19T22:50:17.760762300
+And
+Student ID: bdu1309026 logged Outinto: 2023-05-19T22:51:23.006754600
+
+Student ID: bdu1309026 logged into: 2023-05-20T11:51:01.497697300
+And
+Student ID: bdu1309026 logged Outinto: 2023-05-20T11:51:15.947391800
+
+Student ID: bdu1309026 logged into: 2023-05-21T15:50:02.523390100
+And
+Student ID: bdu1309026 logged Outinto: 2023-05-21T15:50:32.499162
+
+Student ID: bdu1309026 logged into: 2023-05-21T18:12:23.438907
+And
+
+Student ID: bdu1309026 logged into: 2023-05-21T18:19:46.059969100
+And
+
+Student ID: bdu1309026 logged into: 2023-05-21T18:23:40.178183900
+And
+
+Student ID: bdu1309026 logged into: 2023-05-21T18:36:51.290348800
+And
+
+Student ID: bdu1309026 logged into: 2023-05-21T18:40:21.573809500
+And
+Student ID: bdu1309026 logged Outinto: 2023-05-21T18:42:17.232129400
+
+Student ID: bdu1309026 logged into: 2023-05-21T19:17:55.363677300
+And
+
+Student ID: bdu1309026 logged into: 2023-05-21T20:01:01.933182400
+And
+
+Student ID: bdu1309026 logged into: 2023-05-21T20:07:02.958284700
+And
+
+Student ID: bdu1309026 logged into: 2023-05-21T20:07:32.942109100
+And
+
+Student ID: bdu1309026 logged into: 2023-05-21T20:12:00.492789
+And
+
+Student ID: bdu1309026 logged into: 2023-05-21T20:25:43.247210300
+And
+Student ID: null logged Outinto: 2023-05-21T20:28:26.703676300
+
+Student ID: bdu1309026 logged into: 2023-05-21T21:23:49.599015
+And
+
+Student ID: bdu1309026 logged into: 2023-05-21T21:25:42.007749100
+And
+
+Student ID: bdu1309026 logged into: 2023-05-21T21:38:24.501935800
+And
+
+Student ID: bdu1309026 logged into: 2023-05-21T21:44:18.772649700
+And
+
+Student ID: bdu1309026 logged into: 2023-05-21T21:45:44.554400700
+And
+Student ID: null logged Outinto: 2023-05-21T21:46:27.803700700
+
+Student ID: bdu1309026 logged into: 2023-05-21T21:49:00.806752
+And
+Student ID: bdu130 logged Outinto: 2023-05-21T21:51:55.396125400
+
+Student ID: bdu1309026 logged into: 2023-05-22T01:13:42.297293800
+And
+
+Student ID: bdu1309026 logged into: 2023-05-22T01:27:29.591597800
+And
+
+Student ID: bdu1309026 logged into: 2023-05-22T02:02:57.434133600
+And
+Student ID: bdu130 logged Outinto: 2023-05-22T02:03:47.824198700
+
+Student ID: bdu1309026 logged into: 2023-05-22T10:04:16.660333700
+And
+Student ID: bdu130 logged Outinto: 2023-05-22T10:06:33.265768
+
+Student ID: bdu1309026 logged into: 2023-05-22T14:43:55.828619900
+And
+Student ID: null logged Outinto: 2023-05-22T14:44:11.576716
+
+Student ID: bdu1309026 logged into: 2023-05-22T15:53:14.055990300
+And
+Student ID: null logged Outinto: 2023-05-22T15:53:42.085398
+
+Student ID: bdu1309026 logged into: 2023-05-23T18:55:26.742492
+And
+Student ID: abel logged Outinto: 2023-05-23T18:57:04.746577700
+
+Student ID: bdu1309027 logged into: 2023-05-23T18:58:25.282716300
+And
+Student ID: abel logged Outinto: 2023-05-23T18:58:40.827952700
+
+Student ID: bdu1309026 logged into: 2023-06-11T20:26:01.986367552
+And
+
+Student ID: bdu1309026 logged into: 2023-06-11T20:31:17.043971194
+And
+
+Student ID: bdu1309027 logged into: 2023-06-11T22:25:08.072357023
+And
+
+Student ID: bdu1309027 logged into: 2023-06-11T22:25:48.103541058
+And
+
+Student ID: bdu1309027 logged into: 2023-06-11T22:26:25.083401219
+And
+
+Student ID: bdu1309027 logged into: 2023-06-11T22:26:50.359697055
+And
+
+Student ID: bdu1309027 logged into: 2023-06-11T22:27:28.068694456
+And
+
+Student ID: bdu1309027 logged into: 2023-06-11T22:28:21.373535841
+And
+
+Student ID: bdu13057 logged into: 2023-06-11T22:36:06.492136312
+And
+Student ID: hana logged Outinto: 2023-06-11T22:49:34.904706840
+
+Student ID: bdu1309026 logged into: 2023-06-11T23:23:30.532347790
+And
+Student ID: abel berhanu logged Outinto: 2023-06-11T23:33:56.239106254

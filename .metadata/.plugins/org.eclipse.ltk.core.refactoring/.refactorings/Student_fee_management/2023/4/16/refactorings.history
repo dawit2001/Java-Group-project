@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Student_fee_management/src/application/myfxml.fxml&apos; to &apos;main.fxml&apos;" description="Rename resource &apos;myfxml.fxml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/application/myfxml.fxml" name="main.fxml" stamp="1681812047690" updateReferences="true"/>
+</session>
