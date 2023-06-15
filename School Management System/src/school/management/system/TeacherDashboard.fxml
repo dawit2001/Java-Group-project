@@ -137,8 +137,7 @@
                                     </Label>
                                     <Button fx:id="add_marklist_btn" layoutX="18.0" layoutY="457.0" mnemonicParsing="false" onAction="#addMarkList" prefHeight="30.0" prefWidth="72.0" styleClass="btn" text="Add" />
                                     <Button fx:id="clear_marklist_btn" layoutX="116.0" layoutY="457.0" mnemonicParsing="false" onAction="#clearMarkList" prefHeight="30.0" prefWidth="72.0" styleClass="btn" text="Clear" />
-                                    <Button fx:id="update_marklist_btn" layoutX="21.0" layoutY="510.0" mnemonicParsing="false" onAction="#updateMarkList" prefHeight="30.0" prefWidth="72.0" styleClass="btn" text="Update" />
-                                    <Button fx:id="delete_marklist_btn" layoutX="114.0" layoutY="510.0" mnemonicParsing="false" onAction="#deleteMarkList" prefHeight="30.0" prefWidth="72.0" styleClass="btn" text="Delete" />
+                                    <Button fx:id="update_marklist_btn" layoutX="65.0" layoutY="509.0" mnemonicParsing="false" onAction="#updateMarkList" prefHeight="30.0" prefWidth="72.0" styleClass="btn" text="Update" />
                                  </children>
                               </AnchorPane>
                               <AnchorPane layoutX="253.0" layoutY="22.0" prefHeight="260.0" prefWidth="719.0" AnchorPane.leftAnchor="253.0">
@@ -151,7 +150,7 @@
                                       <columns>
                                         <TableColumn fx:id="markList_col_studentID" prefWidth="81.60000610351562" text="StudentID" />
                                         <TableColumn fx:id="markList_col_name" prefWidth="90.4000244140625" text="Name" />
-                                          <TableColumn fx:id="markList_col_courseID" prefWidth="81.5999755859375" text="Couorse ID" />
+                                          <TableColumn fx:id="markList_col_courseID" prefWidth="81.5999755859375" text="Course ID" />
                                           <TableColumn fx:id="markList_col_quiz" prefWidth="62.39996337890625" text="Quiz(5%)" />
                                           <TableColumn fx:id="markList_col_test" prefWidth="63.20001220703125" text="Test(10%)" />
                                           <TableColumn fx:id="markList_col_project" prefWidth="81.5999755859375" text="project(10%)" />

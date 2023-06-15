@@ -200,6 +200,26 @@ public class TeacherDashboardController implements Initializable {
         }
     }
 
+    public Boolean inputChecker () {
+    	if(Double.parseDouble(quiz_tf.getText())<0||
+        		Double.parseDouble(quiz_tf.getText())>5||
+        		Double.parseDouble(test_tf.getText())<0||
+        		Double.parseDouble(test_tf.getText())>10||
+        		Double.parseDouble(mid__tf.getText())<0||
+        		Double.parseDouble(mid__tf.getText())>25||
+         		Double.parseDouble(mid__tf.getText())<0||
+        		Double.parseDouble(final_tf.getText())<0||
+         		Double.parseDouble(final_tf.getText())>50||
+        		Double.parseDouble(project_tf.getText())<0||
+         		Double.parseDouble(project_tf.getText())>10) {
+    		return true;
+    	}
+    	else {
+    		return false;
+    	}
+    	
+    }
+    
     public void addMarkList() {
 
         String sql = "INSERT INTO grade(studentID, courseID, quizGrade, testGrade, assignmentGrade, midGrade, finalGrade, totalGrade, grade, teacherID) VALUES(?,?,?,?,?,?,?,?,?,?)";
@@ -216,7 +236,12 @@ public class TeacherDashboardController implements Initializable {
 
             errorMessage("Please fill all blank fields");                                                                 // if one of them is null or empty it calles the emptyFields method
 
-        } else {
+        }
+        else if (inputChecker()) {
+        	errorMessage("invalid input please enter correct information");
+        	
+        }
+        else {
 
             try {
 
@@ -267,18 +292,91 @@ public class TeacherDashboardController implements Initializable {
 
     @FXML
     private void clearMarkList(ActionEvent event) {
+    	studentID_tf.setText("");
+    	studentName_tf.setText("");
+        courseID_tf.setText("");;
+        quiz_tf.setText("");;
+        test_tf.setText("");;
+        project_tf.setText("");
+        mid__tf.setText("");
+        final_tf.setText("");
+        total_grade_label.setText("");
+    	
     }
 
     @FXML
     private void updateMarkList(ActionEvent event) {
-    }
-
-    @FXML
-    private void deleteMarkList(ActionEvent event) {
+    	if(quiz_tf.getText().isEmpty()||test_tf.getText().isEmpty()
+    			||final_tf.getText().isEmpty()
+    			||project_tf.getText().isEmpty()||
+    			mid__tf.getText().isEmpty()||
+    			courseID_tf.getText().isEmpty())
+    		errorMessage("please fill the blanks");
+    	
+    	else if(inputChecker()) {
+    		errorMessage("invalid input please enter correct information");
+    		
+    	}
+    	
+    	
+      else {
+    	  totalGrade();
+    	  String query = "update grade set quizGrade=? ,"
+    			+ "testGrade=? ,"
+    			+ "assignmentGrade=?, "
+    			+ "midGrade=? ,"
+    			+ " finalGrade=?, "
+    			+ " totalGrade=? ,"
+    			+ " grade =? "
+    			+ "where studentID=? and courseID=?  ";
+//    	  String query2 = "Select * from course where courseID=?";
+    	    
+    	
+    	try {
+    		connect = DatabaseConnection.connectionDB();
+//    		prepare = connect.prepareStatement(query2);    		
+    		prepare = connect.prepareStatement(query);
+    		prepare.setDouble(1,Double.parseDouble(quiz_tf.getText() ));
+    		prepare.setDouble(2,Double.parseDouble(test_tf.getText() ));
+    		prepare.setDouble(3,Double.parseDouble(project_tf.getText() ));
+    		prepare.setDouble(4,Double.parseDouble(mid__tf.getText()) );
+    		prepare.setDouble(5,Double.parseDouble(final_tf.getText()) );
+    		prepare.setDouble(6,totalGrade);
+    		prepare.setString(7,grade);
+    		prepare.setString(8, studentID_tf.getText());
+    		prepare.setString(9, courseID_tf.getText());    	
+    		int result = prepare.executeUpdate();
+    		successMessage("updated successfully");
+    		showMarkListGradeData();
+    		System.out.println(result);
+    	}catch(SQLException e) {
+    		System.out.println(e);
+    	}}
+    	
     }
 
     @FXML
     private void markListSelect(MouseEvent event) {
+    	 GradeData sD = markList_tableView.getSelectionModel().getSelectedItem();
+         int num = markList_tableView.getSelectionModel().getSelectedIndex();
+
+         if ((num - 1) < -1) {       // if there no is selected row i.e index < 0  it simply return wihtout doing anything
+             return;
+         }
+
+        studentID_tf.setText(sD.getStudentID());
+        studentID_tf.setDisable(true);
+        studentName_tf.setText(sD.getName());
+        studentName_tf.setDisable(true);
+        courseID_tf.setText(sD.getCourseID());
+        quiz_tf.setText(sD.getQuizGrade().toString());
+        test_tf.setText(sD.getTestGrade().toString());
+        mid__tf.setText(sD.getMidGrade().toString());
+        final_tf.setText(sD.getFinalGrade().toString());
+        project_tf.setText(sD.getAssignmentGrade().toString());
+        total_grade_label.setText(sD.getTotalGrade().toString());
+        
+        
     }
 
     public ObservableList<GradeData> MarkListGradeData() {
@@ -311,7 +409,7 @@ public class TeacherDashboardController implements Initializable {
             }
 
             result.close();
-            connect.close();
+//            connect.close();
         } catch (SQLException ex) {
 
         }
@@ -398,7 +496,18 @@ public class TeacherDashboardController implements Initializable {
         }
 
         studentID_tf.setText(sD.getStudentID());
+        studentID_tf.setDisable(true);
         studentName_tf.setText(sD.getName());
+        studentName_tf.setDisable(true);
+        courseID_tf.setText("");
+        courseID_tf.setText("");
+        quiz_tf.setText("");
+        test_tf.setText("");
+        mid__tf.setText("");
+        final_tf.setText("");
+        project_tf.setText("");
+        total_grade_label.setText("");
+
     }
 
     public void logout() {

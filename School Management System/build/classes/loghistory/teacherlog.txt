@@ -213,3 +213,42 @@ Teacher ID: grma logged Outinto: 2023-06-11T22:51:14.023409811
 Teacher ID: bdu130 logged into: 2023-06-11T22:51:30.827115692
 And
 Teacher ID: abel logged Outinto: 2023-06-11T22:58:21.402878376
+
+Teacher ID: bdu132 logged into: 2023-06-12T01:38:50.965093045
+And
+
+Teacher ID: bdu130 logged into: 2023-06-12T01:40:30.534090063
+And
+
+Teacher ID: bdu130 logged into: 2023-06-12T01:44:05.017341208
+And
+
+Teacher ID: bdu130 logged into: 2023-06-12T01:45:13.444930143
+And
+
+Teacher ID: bdu130 logged into: 2023-06-12T01:55:23.782543997
+And
+
+Teacher ID: bdu130 logged into: 2023-06-12T02:00:18.976996330
+And
+
+Teacher ID: bdu130 logged into: 2023-06-12T02:01:11.472196201
+And
+
+Teacher ID: bdu130 logged into: 2023-06-12T02:02:29.397303345
+And
+
+Teacher ID: bdu130 logged into: 2023-06-12T02:04:00.458256672
+And
+
+Teacher ID: bdu130 logged into: 2023-06-12T02:05:01.243848468
+And
+
+Teacher ID: bdu130 logged into: 2023-06-12T02:09:42.958353510
+And
+
+Teacher ID: bdu130 logged into: 2023-06-12T02:11:15.087774501
+And
+
+Teacher ID: bdu130 logged into: 2023-06-12T02:12:32.481568478
+And

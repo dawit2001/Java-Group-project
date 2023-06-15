@@ -71,7 +71,6 @@ public class Main extends Application {
 
     private static Parent loadFXML(String fxml) throws IOException {
         FXMLLoader loader = new FXMLLoader();
-//        System.out.println("loader loaded");
         return FXMLLoader.load(Main.class.getResource(fxml + ".fxml"));
     }
 
